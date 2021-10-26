@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<title>Navbar Nested Dropdown Menu</title>
+</head>
+<body>
+
+	<nav>
+		<ul class="nav-menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li>
+				<a href="#">Course <i class='bx bx-chevron-down'></i></a>
+				<ul class="dropdown first">
+					<li>
+						<a href="#">Web Developer <i class='bx bx-chevron-right'></i></a>
+						<ul class="dropdown">
+							<li>
+								<a href="#">Front End <i class='bx bx-chevron-right'></i></a>
+								<ul class="dropdown">
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">CSS</a></li>
+									<li><a href="#">Javascript</a></li>
+									<li><a href="#">React JS</a></li>
+									<li><a href="#">Vue JS</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Back End <i class='bx bx-chevron-right'></i></a>
+								<ul class="dropdown">
+									<li><a href="#">Flask</a></li>
+									<li><a href="#">Django</a></li>
+									<li><a href="#">PHP</a></li>
+									<li><a href="#">Laravel</a></li>
+									<li><a href="#">Codeigniter</a></li>
+									<li><a href="#">Node JS</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">UI/UX Designer</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<a href="#" class="brand">Brand</a>
+	</nav>
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
